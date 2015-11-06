@@ -1,7 +1,6 @@
 Package `scriptsources` is a simple utility that extracts resources referenced inside of HTML script tags. Given a URL, it'll retrieve the page and comb through the body of the response finding all resources specified in the  `<script>` tags' `src` attributes.
 
-[![GoDoc](https://godoc.org/github.com/jboursiquot/scriptsources?status.svg)](http://godoc.org/github.com/jboursiquot/scriptsources)
-
+[![GoDoc](https://godoc.org/github.com/jboursiquot/scriptsources?status.svg)](http://godoc.org/github.com/jboursiquot/scriptsources) [![Build Status](https://travis-ci.org/jboursiquot/scriptsources.svg?branch=master)](https://travis-ci.org/jboursiquot/scriptsources)
 ### Usage
 
 ```go
